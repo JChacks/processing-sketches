@@ -8,7 +8,7 @@ class Cell {
     this.x = x;
     this.y = y;
     this.type = type;
-    if(type == 0)
+    if(type == 0 || type == 5)
       isWalkable = false;
     else
       isWalkable = true;
